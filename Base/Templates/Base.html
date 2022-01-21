@@ -5,12 +5,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="A Mathematical quiz app aimed at improving the mathematical skills of individualss"> <!-- Working on this later -->
-    <link rel="shortcut icon" href="{% static 'Images/Favicon.ico' %}" type="image/x-icon" />
+    <meta name="description" content="A Mathematical quiz app aimed at improving the mathematical skills of individuals"> <!-- Working on this later -->
+    <link rel="shortcut icon" id="Icon" href="{% static 'Images/Favicon-dark.svg' %}" type='image/svg' />
     <title>Notation</title>
 </head>
 <body>
     {% block body %}
     {% endblock body %}
+    <script>
+        /* 
+            This script just states that if the user has his window in dark-mode, 
+            the icon changes its color to be more visible.
+            Else it remains as dark blue in color.
+        */
+        const linkIcon = document.querySelector("link#Icon");
+        window.matchMedia('(prefers-color-scheme: dark)').matches?
+        linkIcon.setAttribute("href", "{% static 'Images/Favicon-dark.svg' %}"):
+        linkIcon.setAttribute("href", "{% static 'Imaged/Favicon-light.svg' %}");
+        // Concised form 👆👆
+    </script>
 </body>
 </html>

@@ -127,12 +127,12 @@ USE_TZ = True
 
 STATIC_URL = 'Static/'
 
-STATICFILE_DIRS = [ # This is the list of directories where django can search for and get static files
-    BASE_DIR / 'Base/', # Base Static files
-    BASE_DIR / 'User/', # Static files stored in the user Section
-    BASE_DIR / 'Contributor', # Static files stored in the Contributor Section
-    BASE_DIR / 'Community', # Static files stored in the Community section
-    BASE_DIR / 'Merchandise', # Static files stores in the Merchandise Section
+STATICFILES_DIRS = [ # This is the list of directories where django can search for and get static files
+    BASE_DIR / 'Base/Static', # Base Static files
+    BASE_DIR / 'User/Static', # Static files stored in the user Section
+    BASE_DIR / 'Contributor/Static', # Static files stored in the Contributor Section
+    BASE_DIR / 'Community/Static', # Static files stored in the Community section
+    BASE_DIR / 'Merchandise/Static', # Static files stores in the Merchandise Section
 ]
 
 # Default primary key field type
