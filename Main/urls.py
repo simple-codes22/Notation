@@ -1,21 +1,15 @@
-"""Main URL Configuration
-
-The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/4.0/topics/http/urls/
-Examples:
-Function views
-    1. Add an import:  from my_app import views
-    2. Add a URL to urlpatterns:  path('', views.home, name='home')
-Class-based views
-    1. Add an import:  from other_app.views import Home
-    2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
-Including another URLconf
-    1. Import the include() function: from django.urls import include, path
-    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
+"""
+    The base url for the Notation app. 
+    The include module connects the smaller sections together while routing takes place
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('', include('User.urls')), # The main app for all users
+    path('admin/', admin.site.urls), # The master app for the admin
+    path('contribute/', include('Contributor.urls')), # The contributors app for setting questions
+    path('community/', include('Community.urls')), # The Community app for asking questions or issues
+    path('merch/', include('Merchandise.urls')), # The E-Commerce section for purchasing Notation merches (If that's a word 😂)
+
 ]
