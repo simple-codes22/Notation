@@ -6,12 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="A Mathematical quiz app aimed at improving the mathematical skills of individuals"> <!-- Working on this later -->
-    <link rel="shortcut icon" id="Icon" href="{% static 'Images/Favicon-dark.svg' %}" type='image/svg' />
+    <link rel="shortcut icon" id="Icon" href="{% static 'Images/Favicon-light.svg' %}" type='image/svg' />
     <title>Notation</title>
 </head>
 <body>
     {% block body %}
     {% endblock body %}
+
+    <!-- Block for script to be used by other apps -->
+    {% block script %}
+    {% endblock %}
     <script>
         /* 
             This script just states that if the user has his window in dark-mode, 
