@@ -1,9 +1,15 @@
 {% extends 'Base.html' %}
 {% load static%}
 
+<!-- 
+    The user's html page which connecting to the base html template through Django. 
+    This app uses ReactJS 
+-->
+
 {% block body %}
         <div id='js_base'></div>
 {% endblock %}
+
 {% block script %}
-<script src="{% static 'main.js' %}"></script>
+    <script src="{% static 'main.js' %}"></script>
 {% endblock %}
