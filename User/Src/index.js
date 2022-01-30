@@ -1,12 +1,11 @@
 import React from 'react';
 import { render } from 'react-dom';
-import Home from './Pages/Home';
+import Soon from './Pages/Soon';
 
 const Index = () => {
     return (
         <div>
-            Hello world
-            <Home />
+            <Soon />
         </div>
     );
 };

@@ -1,9 +1,10 @@
 import React from 'react';
+// The homepage is currently in development.
 
 const Home = () => {
     return (
         <div>
-            Home Page is active
+            Home Page is in development
         </div>
     );
 };

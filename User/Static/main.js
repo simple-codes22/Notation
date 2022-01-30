@@ -10,13 +10,13 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./User/Src/Pages/Home.js":
+/***/ "./User/Src/Pages/Soon.js":
 /*!********************************!*\
-  !*** ./User/Src/Pages/Home.js ***!
+  !*** ./User/Src/Pages/Soon.js ***!
   \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\n\nvar Home = function Home() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", null, \"Home Page is active\");\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Home);\n\n//# sourceURL=webpack://notation/./User/Src/Pages/Home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\n/* \r\n    The \"coming soon\" page to inform the users that the project would be released soon\r\n*/\n\nvar Soon = function Soon() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", null, \"Coming soon Note: This is the \\\"coming soon\\\" Page \\uD83E\\uDD1E\\uD83E\\uDD1E\");\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Soon);\n\n//# sourceURL=webpack://notation/./User/Src/Pages/Soon.js?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \***************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var _Pages_Home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Pages/Home */ \"./User/Src/Pages/Home.js\");\n\n\n\n\nvar Index = function Index() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", null, \"Hello world\", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Pages_Home__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null));\n};\n\n(0,react_dom__WEBPACK_IMPORTED_MODULE_1__.render)( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Index, null), document.getElementById('js_base'));\n\n//# sourceURL=webpack://notation/./User/Src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var _Pages_Soon__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Pages/Soon */ \"./User/Src/Pages/Soon.js\");\n\n\n\n\nvar Index = function Index() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Pages_Soon__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null));\n};\n\n(0,react_dom__WEBPACK_IMPORTED_MODULE_1__.render)( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Index, null), document.getElementById('js_base'));\n\n//# sourceURL=webpack://notation/./User/Src/index.js?");
 
 /***/ }),
 
