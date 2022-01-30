@@ -4,7 +4,8 @@
   "description": "A cool mathematics quiz app aimed at improving the mathematical skills of users",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --mode development --watch --entry ./User/Src/index.js --output-path ./User/Static/",
+    "build": "webpack --mode production --entry ./User/Src/index.js --output-path ./User/Static/"
   },
   "author": "Simeon Akanbi",
   "license": "ISC",
