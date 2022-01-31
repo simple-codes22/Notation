@@ -12,7 +12,7 @@ Notation is a mathematics quiz app aimed at improving the mathematical skills of
 ### Backend
 - Python Django
 - Django Rest Framework
-- PostgreSQL
+- PostgreSQL (A sqlite3 database will be used during development on all local systems).
 
 Note: Currently In Development 🤞🤞
 
@@ -26,6 +26,7 @@ Note: Currently In Development 🤞🤞
 - Activate the virtual environment.
 
     > `env\Scripts\activate`    (for Windows users)
+    
     > `source env/bin/activate`     (for macOS users)
 - Clone the forked repository to the folder where the virtual environment is active.
 - Install the pip packages stated at `requirements.txt`.
