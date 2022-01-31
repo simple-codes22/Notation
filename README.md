@@ -6,7 +6,7 @@ Notation is a mathematics quiz app aimed at improving the mathematical skills of
 
 ## Current Tech Stacks
 ### Frontend
-- ReactJS
+- ReactJS (React Native for mobile)
 - Material UI
 
 ### Backend
