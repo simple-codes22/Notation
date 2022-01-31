@@ -34,11 +34,11 @@ Note: Currently In Development 🤞🤞
 - Install all npm packages using this simple command.
     > `npm install`
 
-- Run the Backend.
-    > `python manage.py runserver`
-
-- Then finally run the Frontend.
+- Run the Frontend.
     > `npm run dev`
+
+- Then finally run the Backend.
+    > `python manage.py runserver`
 
     You made it !! 😁😁, well that was easy 😅😅. Feel free to work on this.
 
