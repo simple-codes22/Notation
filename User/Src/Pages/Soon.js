@@ -5,8 +5,8 @@ import {
     TextField
 } from '@mui/material'; 
 import { makeStyles } from '@mui/styles'; // For making custom styles for every component
-import NotationImg from '../../../Base/Static/Images/SVG/Notation over.svg';
-import background from '../../../Base/Static/Images/SVG/Background-1.svg';
+import NotationImg from '../../../Base/Static/Images/SVG/Notation over.svg'; // The brand logo
+import background from '../../../Base/Static/Images/SVG/Background-1.svg'; // The Background image
 
 
 /* 
@@ -27,10 +27,10 @@ const soonStyle = makeStyles(theme => ({
     },
     imageCover: {
         position: 'absolute',
-        top: '5px',
+        top: '2px',
         '& img': {
-            width: '350px',
-            height: '350px',
+            width: '330px',
+            height: '330px',
         }
     },
     intro: {
