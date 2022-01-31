@@ -15,6 +15,7 @@ import background from '../../../Base/Static/Images/SVG/Background-1.svg'; // Th
 const soonStyle = makeStyles(theme => ({ 
     /* Styling for the coming soon page */
     root: {
+        /* Styling for the root division */
         position:'fixed',
         display: 'flex',
         justifyContent: 'center',
@@ -22,10 +23,11 @@ const soonStyle = makeStyles(theme => ({
         flexDirection:'column',
         height: '100%',
         width: '100%',
-        background: `url(${background}) no-repeat fixed center`,
+        background: `url(${background}) no-repeat fixed center`, // Adding the coolest background
         backgroundSize: 'cover',
     },
     imageCover: {
+        /* The styling for the div covering the brand logo */
         position: 'absolute',
         top: '2px',
         '& img': {
@@ -34,6 +36,7 @@ const soonStyle = makeStyles(theme => ({
         }
     },
     intro: {
+        /* Intro words style */
         fontSize: '26px',
         width: '850px',
         textAlign:'center',
@@ -41,6 +44,7 @@ const soonStyle = makeStyles(theme => ({
         margin: '5px',
     },
     CSPrompt: {
+        /* The styling for the "Coming Soon" header prompt */
         fontSize: '60px',
         letterSpacing: '1.6px',
         margin: '20px',
@@ -49,11 +53,13 @@ const soonStyle = makeStyles(theme => ({
         color: '#4b4a4a'
     },
     emailForm: {
+        /* The form which surrounds the inputs */
         position: 'absolute',
         bottom : '27%',
         display: 'flex',
     },
     email: {
+        /* E-Mail input styling */
         height: '33px',
         width: '350px',
         padding: '0px 15px',
@@ -62,7 +68,6 @@ const soonStyle = makeStyles(theme => ({
         background: '#ffffff76',
         '& div': {
             borderRadius: '0 !important',
-            // border: '1.5px solid #4b4a4ab5',
             color: '#4b4a4a',
         },
         '& label': {
