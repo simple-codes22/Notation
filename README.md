@@ -1,8 +1,10 @@
 <img src='./Base/Static/Images/PNG/Notation Dark.png' align-item='center' />
 
 # Notation
-Do you love math. Well you came to the right place. 
+Do you love math. Well you came to the right place 😁😁. 
 Notation is a mathematics quiz app aimed at improving the mathematical skills of users.
+
+![last commit](https://img.shields.io/github/last-commit/simple-codes22/Notation) ![GitHub language count](https://img.shields.io/github/languages/count/simple-codes22/Notation) ![GitHub top language](https://img.shields.io/github/languages/top/simple-codes22/Notation) ![GitHub repo size](https://img.shields.io/github/repo-size/simple-codes22/Notation) ![Lines of code](https://img.shields.io/tokei/lines/github/simple-codes22/Notation) ![GitHub issues](https://img.shields.io/github/issues/simple-codes22/Notation)
 
 ## Current Tech Stacks
 ### Frontend
