@@ -27,7 +27,7 @@ Note: Currently In Development 🤞🤞
 
     > `env\Scripts\activate`    (for Windows users)
     > `source env/bin/activate`     (for macOS users)
-- Clone the repository to the folder where the virtual environment is active.
+- Clone the forked repository to the folder where the virtual environment is active.
 - Install the pip packages stated at `requirements.txt`.
     > `pip install -r requirements.txt`
 
