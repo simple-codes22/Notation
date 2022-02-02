@@ -1,3 +1,6 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
-# Create your views here.
+def main(request, *args, **kwargs):
+    if request.method == 'POST':
+        pass
+    return redirect('User:main')
