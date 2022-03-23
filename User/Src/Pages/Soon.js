@@ -33,7 +33,13 @@ const soonStyle = makeStyles(theme => ({
         '& img': {
             width: '330px',
             height: '330px',
-        }
+            [theme.breakpoints.between('sm', 'md')]: {
+                // Styling for the media query between 600px to 900px width
+                // For the svg image
+                width: '250px',
+                height: '250px',
+            }
+        },
     },
     intro: {
         /* Intro words style */
@@ -42,6 +48,11 @@ const soonStyle = makeStyles(theme => ({
         textAlign:'center',
         color: '#4b4a4a',
         margin: '5px',
+        [theme.breakpoints.between('sm', 'md')]: {
+            // Styling for the media query between 600px to 900px width
+            width: "570px",
+            fontSize: '23px',
+        }
     },
     CSPrompt: {
         /* The styling for the "Coming Soon" header prompt */
@@ -50,13 +61,22 @@ const soonStyle = makeStyles(theme => ({
         margin: '20px',
         fontWeight: '600',
         textAlign:'center',
-        color: '#4b4a4a'
+        color: '#4b4a4a',
+        [theme.breakpoints.between('sm', 'md')]: {
+            // Styling for the media query between 600px to 900px width
+            fontSize: '42px',
+            letterSpacing: '1.4px',
+            // margin: '20px',
+        }
     },
     emailForm: {
         /* The form which surrounds the inputs */
         position: 'absolute',
         bottom : '27%',
         display: 'flex',
+        [theme.breakpoints.between('sm', 'md')]: {
+            // Styling for the media query between 600px to 900px width
+        }
     },
     email: {
         /* E-Mail input styling */
@@ -79,6 +99,9 @@ const soonStyle = makeStyles(theme => ({
             border: '2px solid #4b4a4ab0',
             borderRight: '0 !important',
         },
+        [theme.breakpoints.between('sm', 'md')]: {
+            // Styling for the media query between 600px to 900px width
+        }
     },
     subBtn: {
         height: '56px',
@@ -89,6 +112,9 @@ const soonStyle = makeStyles(theme => ({
             color: '#4b4a4aca',
         },
         '& span': {
+        },
+        [theme.breakpoints.between('sm', 'md')]: {
+            // Styling for the media query between 600px to 900px width
         }
     }
 
