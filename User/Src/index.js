@@ -5,7 +5,7 @@ import { createTheme, ThemeProvider } from '@mui/material';
 
 
 const mainTheme = createTheme({
-    /* Official dedictated theme of the Notation app */
+    /* Official dedicated theme of the Notation app */
     palette: {
         primary: {
             main: '#324e6a',
