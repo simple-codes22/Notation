@@ -1,5 +1,8 @@
+/* Base React component connecting to user_index.html file */
+
 import React from 'react';
 import { createRoot } from 'react-dom/client';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Soon from './Pages/Soon';
 import { createTheme, ThemeProvider } from '@mui/material';
 
@@ -25,7 +28,13 @@ const Index = () => {
     /* The main node of the user application with the theme installed */
     return (
         <ThemeProvider theme={mainTheme}>
-            <Soon />
+            <BrowserRouter>
+                {/* The base router  */}
+                <Routes>
+                    <Route index exact path='' element={<Soon />} />
+                    <Route path='*' element={<Soon />} />
+                </Routes>
+            </BrowserRouter>
         </ThemeProvider>
     );
 };
