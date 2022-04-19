@@ -1,5 +1,5 @@
 import React from 'react';
-import { render } from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import Soon from './Pages/Soon';
 import { createTheme, ThemeProvider } from '@mui/material';
 
@@ -30,4 +30,6 @@ const Index = () => {
     );
 };
 
-render(<Index />, document.getElementById('js_base'));
+const container = document.getElementById('js_base');
+const root = createRoot(container);
+root.render(<Index />)
